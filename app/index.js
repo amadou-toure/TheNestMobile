@@ -13,7 +13,7 @@ export default function Page() {
 				<Pressable style={styles.button1} onPress={() => router.push("/Login")}>
 					<Text style={styles.button_title1}>Se connecter</Text>
 				</Pressable>
-				<Pressable style={styles.button1} onPress={() => router.push("/Navigation")}>
+				<Pressable style={styles.button1} onPress={() => router.push("/components/Navigation")}>
 					<Text style={styles.button_title1}>home Test</Text>
 				</Pressable>
 				<Pressable style={styles.button} onPress={() => router.push("/SignUp")}>
